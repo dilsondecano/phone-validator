@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en">
 <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
 	Maximalist Phone Validator - My ASP.NET Application
@@ -41,13 +39,13 @@
     
                 
 
-    <link href="https://dilsondecano.github.io/people-search-api/css/StyleSheet1.css" rel="stylesheet" /></head>
+    <link href="css/StyleSheet1.css" rel="stylesheet" /><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <body>
     <form method="post" action="./MaximalistPhoneValidator" id="ctl01">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="HwCGIMMs6MOuunK09oLZMEC/7vpWeW6YHDM0jx0YBmwYlrrkfQecH1jneKJh72ox48jkAvxkEi4i4Vtq6IFNclejqgJZXfy12JTZ+4KNCcU=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="2oG4/pv4+fsnzOxtX1Ia5yj/N92fVJrJwxRahiIls7xIki9XwELiMxWTwzfoj4hGyGTBGMw/f12yZdLrcRsLGovsSwrL/Q4TC1HtQ5oc1ao=" />
 </div>
 
 <script type="text/javascript">
@@ -83,7 +81,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 </div>
         <script type="text/javascript">
 //<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 90, 'ctl00');
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 90, 'ctl00');
 //]]>
 </script>
 
@@ -126,6 +124,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 				</ul>
 			</div>
 		</nav>
+
+        
 
         <script language="JavaScript" type="text/javascript">
 
@@ -446,7 +446,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
     </div>
 </nav>
 
-
+                <h1 id="headerTitle" class="text-center">Searchbug APIs and Data Integration</h1>
+<h2 id="headerSubTitle" class="text-center f24 mt-4">Build powerful Apps to operate data</h2>
 		 <div id="divider" class="header-divider"></div>
 
 	</div>
@@ -474,7 +475,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
          aria-labelledby="gettingStartedTitle"
        >
          <img
-           src="https://dilsondecano.github.io/people-search-api/images/advanced-person-search.png"
+           src="https://dilsondecano.github.io/people-search-api/images/phone-validator-hero-image.png"
            alt="Alternate Text"
            class=""
          />
@@ -487,32 +488,31 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
            <!-- Pricing Section -->
  <section id="pv-pricing" class="padding-tb-75 text-center">
    <div class="container">
+       <img src="https://dilsondecano.github.io/people-search-api/images/pv-pricing-check-icon.png" alt="Alternate Text" class="pv-pricing-check-icon" />
+       <div>
        <h2>Check if Phone Number is Active</h2>
-       <input type="text" name="name" value="" /><button>Verify</button> <button>Clear</button>
-       <p>Line type accuracy is for Landline vs Cell Phone. Some VoIP numbers may be reported as Landlines.</p>
+       <input type="text" name="name" value="" placeholder="+1 (xxx) xxx-xxxx" /><button class="btn-orange mt-4 pv-phone-number-btn">Verify</button> <button class="btn-white mt-4 pv-phone-number-btn">Clear</button>
+           </div>
+       <p class="mt-4">Line type accuracy is for Landline vs Cell Phone. Some VoIP numbers may be reported as Landlines.</p>
 
-     <div class="row d-flex align-items-center">
-       <div class="col-md">
-         <h3>Basic</h3>
-           <h4>Landline or Cell + Phone Carrier Lookup (Advanced)</h4>
-           <button>select</button>
-           <ul id="pv-basic-pricing-list" class="text-left">
-               <li>Works for US</li>
-<li>Original Line Type</li>
-<li>Ported or Not</li>
-<li>SMS Email</li>
-<li>OCN</li>
-<li>State</li>
-<li>Timezone</li>
-<li>Location</li>
-<li>Current Carrier with LNP Check</li>
-           </ul>
-           <button>see sample result</button>
-       </div>
+     <div class="row">
+                              
+         
          <div class="col-md">
+             
+             <div>
+                 <button class="btn-most-recommended">most recommended</button>
+                 <div class="pv-pricing-description">
+             <img src="https://dilsondecano.github.io/people-search-api/images/thumb-up-icon.png" alt="Alternate Text" class="thumb-up-icon" />        
              <h3>Advanced</h3>
-             <h4>Landline or Cell + Phone Carrier Lookup (Standard)</h4>
-             <button>select</button>
+             <h4>Landline or Cell + Phone Carrier Lookup (Standard)
+                 <br />60%-80% accuracy
+             </h4>
+             <p>The most affordable and popular service to identify line type!</p>
+             <button class="btn-orange mt-4">select</button>
+                     </div>
+  </div>
+             
              <ul id="pv-advanced-pricing-list"  class="text-left">
              <li>Works for US</li>
 <li>Works for Canada</li>
@@ -522,13 +522,22 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 <li>Timezone</li>
 <li>Location</li>
   </ul>
-             <button>see sample result</button>
+             
 </div>
 
          <div class="col-md">
+             <div>
+                 <button class="btn-most-recommended-dnone">most recommended</button>
+                 <div class="pv-pricing-description">
   <h3>Advanced + DNC</h3>
              <h4>Line Type and Carrier + DNC</h4>
-             <button>select</button>
+             <p>Get near 100% accuracy for line type and the current carrier.</p>
+
+
+             <button class="btn-orange mt-4">select</button>
+                     </div>
+                 </div>
+
              <ul id="pv-advanceddnc-pricing-list"  class="text-left">
                  
              
@@ -541,16 +550,31 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 <li>Timezone</li>
 <li>Location</li>
 <li>Current Carrier with LNP Check</li>
-<li>Do-Not-Call (DNC) List</li>
+<li data-toggle="tooltip" data-placement="top" title="Tooltip on top">Do-Not-Call (DNC) List</li>
                  </ul>
-             <button>see sample result</button>
+             
 </div>
 
          <div class="col-md">
-  <h3>Complete</h3>
-             <h4>(Advanced +DNC + Reachable)</h4>
-             <h4>Reachable Phone Number</h4>
-             <button>select</button>
+             
+             <div>
+                 
+         <button class="btn-most-recommended">most recommended</button>
+                 <div class="pv-pricing-description">
+
+  <h3>Complete
+      <br  />
+      <span>(Advanced +DNC + Reachable)</span>
+  </h3>
+             
+             <h4>Reachable Phone Number
+                 <br />Get near 100% accuracy
+             </h4>
+             <p>Shows if phone number is on the Federal Do Not Call (DNC) list.</p>
+             <button class="btn-orange mt-4">select</button>
+                 </div>
+                 </div>
+
              <ul id="pv-complete-pricing-list"  class="text-left">
              <li>Works for US</li>
 <li>Current Line Type</li>
@@ -564,7 +588,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 <li>Do-Not-Call (DNC) List</li>
 <li>Reachable Status</li>
              </ul>
-             <button>see sample result</button>
+             
 </div>
        
      </div>
@@ -572,7 +596,19 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
  </section>
 
 
-              <!-- Trusted by companies Section -->
+<!-- FAQs on How To Use Phone Validator Tool Section -->
+           <!-- 
+    <div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>FAQs on How To Use 
+      <br />Phone Validator Tool</h2>
+    </div>
+  </div>
+</div>
+               -->
+
+              <!-- Trusted by Companies Section -->
 <section id="pv-trusted-by-companies" class="padding-tb-75 text-center">
   <div class="container">
       <h2>Trusted by over 50,000 companies of all sizes</h2>
@@ -606,9 +642,14 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 
 
           <!-- Bulk Phone Validator Tools Section -->
-<section id="psa-card-carousel" class="pt-5 pb-5 shadow-sm">
+<section id="pv-card-carousel" class="pt-5 pb-5 shadow-sm">
   <div class="container">
     
+      <h2 class="mb-4">Check out these
+          <br /><span>Bulk Phone Validator Tools</span>
+      </h2>
+      
+      
     <div class="row">
       
       
@@ -618,11 +659,11 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
     
     <div class="card-body d-flex flex-column">
       <div class="d-flex gap-3 align-items-center">
-<img src="https://dilsondecano.github.io/people-search-api/images/api-cloud.png" />
+<img src="/images/api-cloud.png" />
 <h5 class="card-title">Phone <br />Validator API</h5>
 </div>
       <p class="para-1 mt-3 card-text mb-1">Real-time API is available. Process one or multiple numbers in one API call.</p>
-      <a href="#" class="btn mt-auto align-self-start">See more <img src="https://dilsondecano.github.io/people-search-api/images/arrow.png" /></a>
+      <a href="#" class="btn mt-auto align-self-start">See more <img src="/images/arrow.png" /></a>
     </div>
   </div>
 </div>
@@ -632,11 +673,11 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
           
           <div class="card-body d-flex flex-column">
             <div class="d-flex gap-3 align-items-center">
-<img src="https://dilsondecano.github.io/people-search-api/images/api-cloud.png" />
+<img src="/images/api-cloud.png" />
  <h5 class="card-title">Bulk Phone <br /> Validator</h5>
 </div>
             <p class="para-1 mt-3 card-text mb-1">Identify Line Type in a Batch process. DIY bulk quotes and file uploads.</p>
-      <a href="#" class="btn mt-auto align-self-start">See more <img src="https://dilsondecano.github.io/people-search-api/images/arrow.png" /></a>
+      <a href="#" class="btn mt-auto align-self-start">See more <img src="/images/arrow.png" /></a>
           </div>
         </div>
       </div>
@@ -646,11 +687,11 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
           
           <div class="card-body d-flex flex-column">
             <div class="d-flex gap-3 align-items-center">
-            <img src="https://dilsondecano.github.io/people-search-api/images/api-cloud.png" />
+            <img src="/images/api-cloud.png" />
             <h5 class="card-title">Reverse Phone<br /> Lookup in a Batch</h5>
             </div>
               <p class="para-1 mt-3 card-text mb-1">Append person or business names, street addresses, cities, states and zip codes to the list of phone numbers.</p>
-            <a href="#" class="btn mt-auto align-self-start">See more <img src="https://dilsondecano.github.io/people-search-api/images/arrow.png" /></a>
+            <a href="#" class="btn mt-auto align-self-start">See more <img src="/images/arrow.png" /></a>
           </div>
         </div>
       </div>
@@ -664,14 +705,14 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
     <div class="row d-flex align-items-center">
       <div class="col-md-9">
         <h2>Get the <span>Information</span> You Need,<br /> and Manage It Better!</h2>
-        <h3 class="mt-4">No Subscription Fees. Only Pay for Data You Get. Estimate Your Costs and Verify Data Now!</h3>
+        <h3 class="mt-4">No Subscription Fees. Only Pay for Data You Get. <br />Estimate Your Costs and Verify Data Now!</h3>
         <button class="btn-orange mt-4">Contact us now</button>
       </div>
       <div
         class="col-md-3 d-flex justify-content-center"
         aria-labelledby="gettingStartedTitle">
         <img
-          src="https://dilsondecano.github.io/people-search-api/images/get-information-contact-icon.png"
+          src="/images/get-information-icon.png"
           alt="Alternate Text"
           class=""
         />
